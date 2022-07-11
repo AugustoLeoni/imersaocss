@@ -1,0 +1,42 @@
+:root {
+    --branca: #fff;
+    --azul: rgb(29, 151, 192);
+}
+
+body {
+    background: var(--azul);
+    font-family: Arial;
+    height: 100vh;
+}
+
+.menu {
+    background-color: var(--branca);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site_subtitle,
+.site_title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site_subtitle {
+    font-style: italic;
+}
